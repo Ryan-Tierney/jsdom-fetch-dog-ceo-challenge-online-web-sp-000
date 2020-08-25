@@ -1,7 +1,7 @@
 console.log('%c HI', 'color: firebrick')
 
 function fetchImages() {
-  return fetch()
+  return fetch("https://dog.ceo/api/breeds/image/random/4")
   .then(function(response) {
     return response.json();
   })
