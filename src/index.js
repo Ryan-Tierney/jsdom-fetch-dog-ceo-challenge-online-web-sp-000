@@ -6,3 +6,4 @@ function fetchImages("https://dog.ceo/api/breeds/image/random/4") {
 })
 .then(function(json){
 })
+}
