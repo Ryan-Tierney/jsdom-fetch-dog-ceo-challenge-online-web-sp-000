@@ -6,5 +6,5 @@ function fetchImages() {
     .then(json => renderImages(json))
 }
 
-function renderImages() { 
+function renderImages(json) { 
   
